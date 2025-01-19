@@ -8,6 +8,7 @@ const {
 } = require("../controllers/employeeController");
 const multer = require("multer");
 const path = require("path");
+const fs = require("fs");
 
 // Ensure the /tmp/uploads directory exists
 const uploadPath = path.join("/tmp", "uploads");
